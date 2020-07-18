@@ -1,23 +1,40 @@
+<img src="./icon.png" style="width:150px;"/>
+
 # WiFiProxyAutoSet
 
 #### 介绍
-安卓端一键自动设置WiFi代理的软件，配合抓包工具使用，懒人必备！
 
-#### 软件架构
-软件架构说明
+基于Auto.js无障碍开发的安卓端一键自动设置WiFi代理的APP，配合抓包工具使用，懒人必备！  
+设备要求：Android 7.0 +  
+下载地址：[http://...]()
 
+#### 测试机型
 
-#### 安装教程
+> 目前手上的测试机这有这些，其他机型未测试，不保证都能正常使用。  
+> 理论上来说只要设备设置代理过程中都包含以下字样，就没什么问题。  
+> 设置 -> WLAN -> 已连接 -> 修改网络 -> 高级选项 -> [无、手动] -> 保存  
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+| 机型  | ROM  | Android版本  |
+| ------------ | ------------ | ------------ |
+| 小米 4  | 魔趣 mokee  | 7.1.2  |
+| 小米 6  | 魔趣 mokee  | 7.1.2  |
+| 荣耀 8 青春版  | Lineage 14.1  | 7.1.2  |
+| 谷歌 Pixel  | 原生 AOSP  | 7.1.2  |
+| 华为 Nova 7  | EMUI 10.1.1  | 10  |
+
+#### 运行演示
+
+![运行演示](./screenshot/1.gif)
 
 #### 使用说明
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  手机端安装 Auto.js + Auto.js打包插件，并启用无障碍
+2.  电脑端安装 VSCode + Auto.js插件
+3.  Clone项目并用VSCode打开
+4.  开启服务 `Auto.js: Start Server`
+5.  手机端打开Auto.js，连接电脑
+6.  保存项目到手机端 `Auto.js: SaveProject`
+7.  手机端打开Auto.js，找到项目，进行打包
 
 #### 参与贡献
 
@@ -25,13 +42,3 @@
 2.  新建 Feat_xxx 分支
 3.  提交代码
 4.  新建 Pull Request
-
-
-#### 码云特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  码云官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解码云上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是码云最有价值开源项目，是码云综合评定出的优秀开源项目
-5.  码云官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  码云封面人物是一档用来展示码云会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)

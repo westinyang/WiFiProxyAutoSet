@@ -1,0 +1,15 @@
+{
+    "name": "WiFi代理设置",
+    "main": "main.js",
+    "icon": "icon.png",
+    "ignore": [
+        "build",
+        ".gitee",
+        "screenshot",
+        "LICENSE",
+        "README.md"
+    ],
+    "packageName": "com.westinyang.wifiproxyautoset",
+    "versionName": "1.0",
+    "versionCode": 1
+}
