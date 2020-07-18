@@ -1,4 +1,4 @@
-<img src="./icon.png" style="width:150px;"/>
+![运行演示](./icon-128.png)
 
 # WiFiProxyAutoSet
 
