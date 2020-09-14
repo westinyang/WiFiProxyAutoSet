@@ -6,7 +6,7 @@
 
 基于Auto.js无障碍开发的安卓端一键自动设置WiFi代理的APP，配合Fiddler、Burp、Charles等抓包工具使用，懒人必备！  
 设备要求：Android 7.0 +  
-下载地址：[WiFi代理设置_v1.0.apk](https://gitee.com/westinyang/WiFiProxyAutoSet/attach_files/437702/download)
+最新版本：[WiFi代理设置_v1.1.apk](https://gitee.com/westinyang/WiFiProxyAutoSet/attach_files/477139/download)
 
 #### 测试设备
 
