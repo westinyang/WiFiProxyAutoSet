@@ -8,24 +8,23 @@
 设备要求：Android 7.0 +  
 下载地址：[WiFi代理设置_v1.0.apk](https://gitee.com/westinyang/WiFiProxyAutoSet/attach_files/437702/download)
 
-#### 测试机型
+#### 测试设备
 
 > 目前手上的测试机这有这些，其他机型未测试，不保证都能正常使用。  
 > 理论上来说只要设备设置代理过程中都包含以下字样，就没什么问题。  
-> 设置 -> WLAN -> 已连接 -> 修改网络 -> 高级选项 -> [无、手动] -> 保存  
+- [Android 7] 设置 -> WLAN -> 已连接 -> 修改网络 -> ...
+- [Android 9] 设置 -> WLAN -> WLAN -> 已连接 -> 修改 -> ...  
 
-| 机型  | ROM  | Android版本  |
-| ------------ | ------------ | ------------ |
-| 小米 4  | 魔趣 mokee  | 7.1.2  |
-| 小米 6  | 魔趣 mokee  | 8.1.0  |
-| 荣耀 8 青春版  | Lineage 14.1  | 7.1.2  |
-| 华为 P8  | Lineage 14.1  | 7.1.2  |
-| 谷歌 Pixel  | 原生 AOSP  | 7.1.2  |
-| 华为 Nova 7  | EMUI 10.1.1  | 10  |
+| ROM  | Android版本  |
+| ------------ | ------------ |
+| AOSP  | 7 ~ 10  |
+| Mokee  | 7 ~ 10  |
+| LineageOS  | 7 ~ 10  |
+| EMUI 10  | 10  |
 
 #### 运行效果
 
-![运行演示](./screenshot/1.gif)
+![运行演示](./screenshot/2.gif)
 
 #### 使用说明
 
