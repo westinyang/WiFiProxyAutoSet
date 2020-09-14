@@ -54,7 +54,6 @@ function init_ui() {
     
     // Android 7
     ui.open_android_7.click(function(){
-        auto(); // 检查无障碍
         var proxy_ip = ui.proxy_ip.getText();
         // ...
         threads.start(function(){
@@ -62,7 +61,6 @@ function init_ui() {
         });
     });
     ui.close_android_7.click(function(){
-        auto(); // 检查无障碍
         threads.start(function(){
             close_android_7_handler();
         });
@@ -70,7 +68,6 @@ function init_ui() {
 
     // Android 9
     ui.open_android_9.click(function(){
-        auto(); // 检查无障碍
         var proxy_ip = ui.proxy_ip.getText();
         // ...
         threads.start(function(){
@@ -78,7 +75,6 @@ function init_ui() {
         });
     });
     ui.close_android_9.click(function(){
-        auto(); // 检查无障碍
         threads.start(function(){
             close_android_9_handler();
         });
@@ -91,6 +87,8 @@ function init_ui() {
  * @param proxy_port 
  */
 function open_android_7_handler(proxy_ip, proxy_port) {
+    // 检查无障碍
+    auto();
     toast("自动开启代理 " + proxy_ip + ":" + proxy_port);
 
     // 打开设置
@@ -144,6 +142,8 @@ function open_android_7_handler(proxy_ip, proxy_port) {
  * 关闭代理（Android 7）
  */
 function close_android_7_handler() {
+    // 检查无障碍
+    auto();
     toast("自动关闭代理");
     
     // 打开设置
@@ -189,6 +189,8 @@ function close_android_7_handler() {
  * @param proxy_port 
  */
 function open_android_9_handler(proxy_ip, proxy_port) {
+    // 检查无障碍
+    auto();
     toast("自动开启代理 " + proxy_ip + ":" + proxy_port);
 
     // 打开设置
@@ -246,6 +248,8 @@ function open_android_9_handler(proxy_ip, proxy_port) {
  * 关闭代理（Android 9）
  */
 function close_android_9_handler() {
+    // 检查无障碍
+    auto();
     toast("自动关闭代理");
     
     // 打开设置
