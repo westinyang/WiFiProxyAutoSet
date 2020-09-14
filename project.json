@@ -3,8 +3,9 @@
     "main": "main.js",
     "icon": "icon.png",
     "ignore": [
-        "build",
+        ".git",
         ".gitee",
+        "build",
         "screenshot",
         "icon-128.png",
         "LICENSE",
