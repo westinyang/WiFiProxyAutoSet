@@ -45,6 +45,11 @@
 6.  保存项目到手机端 `Auto.js: SaveProject`
 7.  手机端打开Auto.js，找到项目，进行打包
 
+## 技术交流
+
+- 知识星球：https://t.zsxq.com/07r8E7t2c  
+<a href="https://t.zsxq.com/07r8E7t2c"><img src="./screenshot/3.jpg" width="400"></a>
+
 ## 参与贡献
 
 1.  Fork 本仓库
