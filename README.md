@@ -47,7 +47,7 @@
 
 ## 技术交流
 
-- 知识星球：[码力全开](https://docs.qq.com/doc/DQVlkcnlQUEFiQ3Rl)
+- 关于作者：[I'm westinyang](https://kaihongpai.feishu.cn/wiki/CqWLwJRadibxztkrIWZcogWxnXd)
 
 ## 参与贡献
 
